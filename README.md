@@ -14,5 +14,5 @@ brew tap framallo/acxorcist
 brew install acxorcist
 ```
 
-Upgrade with `brew upgrade acxorcist`. The formula installs the `acxorcist`
-script and pulls in its `ffmpeg` dependency.
+Upgrade with `brew upgrade acxorcist`. As of v0.2.0 the formula installs a
+**self-contained Rust binary** — no `ffmpeg` or other external dependency.
